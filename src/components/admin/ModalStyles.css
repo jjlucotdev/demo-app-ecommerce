@@ -1,0 +1,51 @@
+/* Modal styles */
+.modal-dialog {
+    max-width: 50%; /* Set the maximum width of the modal dialog */
+}
+
+.modal-content {
+    padding: 20px; /* Add padding to the modal content */
+}
+
+.modal-body {
+    padding-bottom: 20px; /* Add bottom padding to the modal body */
+}
+
+.modal-footer {
+    justify-content: flex-start; /* Align modal footer content to the left */
+}
+
+/* Responsive image */
+.object-fit {
+    width: 100%; /* Ensure image fills its container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.add-category-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.add-category-container input,
+.add-category-container textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.add-category-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-category-container button:hover {
+    background-color: #0056b3;
+}

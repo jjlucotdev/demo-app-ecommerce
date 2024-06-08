@@ -1,0 +1,47 @@
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.product-table th,
+.product-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.product-table th {
+  background-color: #f2f2f2;
+}
+
+.product-table tr:hover {
+  background-color: #f2f2f2;
+}
+
+.btn {
+  padding: 6px 12px;
+  margin-right: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+}
+
+
+.archive-btn {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.activate-btn {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.deemphasize-btn {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.highlight-btn {
+  background-color: #28a745;
+  color: #fff;
+}

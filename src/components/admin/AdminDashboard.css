@@ -1,0 +1,78 @@
+/* admin-dashboard.css */
+.container {
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.pagination {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.pagination button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.pagination button.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+
+h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.table-responsive {
+  margin-top: 20px;
+}
+
+.table img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: contain;
+}
+
+.table thead th {
+  text-align: center;
+}
+
+.table tbody td {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.table tbody td img {
+  display: block;
+  margin: 0 auto;
+}
+
+.table tbody td button {
+  margin: 5px 0;
+}
+
+@media (max-width: 767px) {
+  .table thead th.d-none,
+  .table tbody td.d-none {
+    display: none;
+  }
+  
+  .table tbody td.d-md-table-cell,
+  .table thead th.d-md-table-cell {
+    display: block;
+  }
+}
+
+@media (min-width: 768px) {
+  .table tbody td.d-md-table-cell,
+  .table thead th.d-md-table-cell {
+    display: table-cell;
+  }
+}
