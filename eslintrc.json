@@ -1,0 +1,7 @@
+{
+    "extends": ["plugin:react/recommended"],
+    "plugins": ["react"],
+    "rules": {
+      "no-unused-vars": "warn"
+    }
+  }
